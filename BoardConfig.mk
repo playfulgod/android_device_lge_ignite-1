@@ -1,7 +1,5 @@
-USE_CAMERA_STUB := true
+#USE_CAMERA_STUB := true
 
-#USE_CAMERA_STUB := false
-#BOARD_USE_FROYO_LIBCAMERA := true
 
 # inherit from the proprietary version
 -include vendor/lge/ignite/BoardConfigVendor.mk
@@ -92,6 +90,7 @@ FW3A := true
 ICAP := true
 IMAGE_PROCESSING_PIPELINE := true
 USE_OVERLAY_FORMAT_DEFAULT_ONLY := true
+
 ifdef HARDWARE_OMX
 OMX_JPEG := true
 OMX_VENDOR := ti

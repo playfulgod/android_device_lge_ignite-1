@@ -15,7 +15,7 @@
 # limitations under the License.
 
 VENDOR=lge
-DEVICE=Ignite
+DEVICE=ignite
 
 mkdir -p ../../../vendor/$VENDOR/$DEVICE
 
@@ -168,7 +168,7 @@ PRODUCT_COPY_FILES += \\
 
 ## BT Firmware
 PRODUCT_COPY_FILES += \\
-    vendor/__VENDOR__/__DEVICE__/proprietary/etc/firmware/BCM43291A0_003.001.013.0066.xxxx_B-Project.hcd:system/etc/firmware/BCM43291A0_003.001.013.0066.xxxx_B-Project.hcd
+    vendor/__VENDOR__/__DEVICE__/proprietary/etc/firmware/BCM43291A0_003.001.013.0141.0160.hcd:system/etc/firmware/BCM43291A0_003.001.013.0141.0160.hcd
 
 ## Camera and related blobs
 PRODUCT_COPY_FILES += \\
