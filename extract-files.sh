@@ -121,8 +121,7 @@ adb pull /system/lib/dsp/wmv9dec_sn.dll64P ../../../vendor/$VENDOR/$DEVICE/propr
 adb pull /system/lib/dsp/yuvconvert.l64p ../../../vendor/$VENDOR/$DEVICE/proprietary/lib/dsp/
 
 # BT firmware
-#adb pull /system/etc/firmware/BCM43291A0_003.001.013.0066.xxxx_B-Project.hcd  ../../../vendor/$VENDOR/$DEVICE/proprietary/etc/firmware/
-adb pull /system/etc/firmware/BCM43291A0_003.001.013.0141.0160.hcd  ../../../vendor/$VENDOR/$DEVICE/proprietary/etc/firmware/
+adb pull /system/bin/BCM43291A0_003.001.013.0141.0160.hcd  ../../../vendor/$VENDOR/$DEVICE/proprietary/etc/firmware/
 
 ## Camera and related blobs
 adb pull /system/lib/libyuvfastconvert.so  ../../../vendor/$VENDOR/$DEVICE/proprietary/lib/
