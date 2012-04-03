@@ -32,6 +32,9 @@ adb pull /system/lib/hw/gralloc.omap3.so ../../../vendor/$VENDOR/$DEVICE/proprie
 adb pull /system/lib/hw/lights.omap3.so ../../../vendor/$VENDOR/$DEVICE/proprietary/lib/hw
 adb pull /system/lib/hw/sensors.omap3.so ../../../vendor/$VENDOR/$DEVICE/proprietary/lib/hw
 
+# AUDIO
+adb pull /system/lib/hw/alsa.omap3.so ../../../vendor/$VENDOR/$DEVICE/proprietary/lib/hw
+
 ## PVRSGX
 adb pull /system/lib/egl/libEGL_POWERVR_SGX530_125.so ../../../vendor/$VENDOR/$DEVICE/proprietary/lib/egl
 adb pull /system/lib/egl/libGLESv1_CM_POWERVR_SGX530_125.so ../../../vendor/$VENDOR/$DEVICE/proprietary/lib/egl
