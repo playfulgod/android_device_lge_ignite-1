@@ -25,7 +25,8 @@ mkdir -p ../../../vendor/$VENDOR/$DEVICE/proprietary/etc/omapcam
 mkdir -p ../../../vendor/$VENDOR/$DEVICE/proprietary/etc/wifi/softap
 mkdir -p ../../../vendor/$VENDOR/$DEVICE/proprietary/etc/cert
 mkdir -p ../../../vendor/$VENDOR/$DEVICE/proprietary/lib/egl
-mkdir -p ../../../vendor/$VENDOR/$DEVICE/proprietary/lib/hw
+mkdir -p ../../../vendor/$VENDOR/$DEVICE/proprietary/lib/dsp
+
 
 # HAL
 adb pull /system/lib/hw/gralloc.omap3.so ../../../vendor/$VENDOR/$DEVICE/proprietary/lib/hw
