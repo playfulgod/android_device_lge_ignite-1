@@ -54,12 +54,10 @@ adb pull /system/bin/pvrsrvinit ../../../vendor/$VENDOR/$DEVICE/proprietary/bin/
 adb pull /system/bin/rild ../../../vendor/$VENDOR/$DEVICE/proprietary/bin
 adb pull /system/lib/lge-ril.so ../../../vendor/$VENDOR/$DEVICE/proprietary/lib
 adb pull /system/lib/libril.so ../../../vendor/$VENDOR/$DEVICE/proprietary/lib
-adb pull /system/lib/libini.so ../../../vendor/$VENDOR/$DEVICE/proprietary/lib
 
 
 # GPS
 adb pull /system/lib/hw/gps.omap3.so ../../../vendor/$VENDOR/$DEVICE/proprietary/lib/hw
-adb pull /system/bin/glgps ../../../vendor/$VENDOR/$DEVICE/proprietary/bin/
 
 # Sensors
 adb pull /system/lib/libmpl.so ../../../vendor/$VENDOR/$DEVICE/proprietary/lib/
